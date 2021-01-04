@@ -27,7 +27,21 @@ function run_app()
         if ($arr_route[0] == '') {
             // handle index here
             controller_get_index();
-        } elseif ($arr_route[0] == 'assets') {
+        }
+        //examples you can use to access other route
+        elseif ($arr_route[0] == 'about') {
+            // handle /about
+
+        } elseif ($arr_route[0] == 'contact') {
+//handle /contact
+        }
+// by the way, you can also add route for /api here
+        elseif ($arr_route[0] == 'api') {
+
+        }
+        // we need to handle assets here, else you cannot access assets
+        // (I assume you use folder named 'assets')
+        elseif ($arr_route[0] == 'assets') {
             controller_get_assets();
         } else {
             controller_get_404();
@@ -37,6 +51,7 @@ function run_app()
 // handle your post request here
     }
     // if you want to include other request method like DELETE/PUT/PATH
+    exit;
 }
 
 function controller_get_404()
