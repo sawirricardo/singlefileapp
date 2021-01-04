@@ -30,6 +30,7 @@ function run_app()
             controller_get_assets();
         } else {
             controller_get_404();
+            //or die ('404');
         }
     } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
 // handle your post request here
