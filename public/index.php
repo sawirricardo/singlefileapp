@@ -15,6 +15,7 @@ run_app();
 /**
  * Main App process happening here
  * @author Ricardo <sawir.ricardo@gmail.com>
+ * @author Follow me on Twitter for feedback or live updates https: //twitter.com/RicardoSawir
  *
  * @return void
  */
