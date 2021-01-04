@@ -1,4 +1,6 @@
 # SingleFile App
+Deploy fast, flexibly extend. Adaptable for any programming languages.
+***
 This is how I built apps fast in a single file.
 You're free to modify how it should be done.
 ***
